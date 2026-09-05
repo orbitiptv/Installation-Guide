@@ -27,7 +27,7 @@
         <a href="#uredjaji" data-g="devices">Uređaji</a>
         <a href="#podaci" data-g="loginData">Podaci za prijavu</a>
         <a href="#problemi" data-g="problems">Rješavanje problema</a>
-        <a href="activation/">Plaćeni playeri</a>
+        <a href="activation/" data-g="paidPlayers">Plaćeni playeri</a>
         <select id="guideLanguage" class="language-select" aria-label="Izaberi jezik"><option value="bs">BS</option><option value="en">EN</option><option value="de">DE</option><option value="sl">SL</option><option value="it">IT</option></select>
       </nav>
     </div>
@@ -56,7 +56,7 @@
 
     <section class="guide-quickbar">
       <div class="container quickbar-inner">
-        <a href="#fire"><span>🔥</span>Fire TV</a><a href="#androidtv"><span>TV</span>Android TV</a><a href="#orbit-tv-vu-player"><span>VU</span>VU Player</a><a href="#rivo-orbit-tv-player"><span>RV</span>RIVO Player</a><a href="activation/"><span>€</span>Aktivacija</a>
+        <a href="#fire"><span>🔥</span>Fire TV</a><a href="#androidtv"><span>TV</span>Android TV</a><a href="#orbit-tv-vu-player"><span>VU</span>VU Player</a><a href="#rivo-orbit-tv-player"><span>RV</span>RIVO Player</a><a href="activation/"><span>€</span><b class="quickbar-label" data-g="paidPlayers">Plaćeni playeri</b></a>
       </div>
     </section>
 
@@ -64,10 +64,10 @@
       <div class="container">
         <a class="premium-promo-card reveal" href="activation/" aria-label="Pogledajte ORBIT plaćene playere">
           <div class="premium-promo-copy">
-            <span class="premium-label">ORBIT PREMIUM PLAYERS</span>
-            <h2>Plaćeni playeri za sve platforme</h2>
-            <p>Pogledajte playere za Android, Samsung i LG TV, iPhone, Windows, macOS, Linux, Roku, VidaaOS i druge uređaje.</p>
-            <span class="premium-promo-button">Pogledaj plaćene playere →</span>
+            <span class="premium-label" data-g="premiumLabel">ORBIT PREMIUM PLAYERS</span>
+            <h2 data-g="premiumTitle">Plaćeni playeri za sve platforme</h2>
+            <p data-g="premiumText">Pogledajte playere za Android, Samsung i LG TV, iPhone, Windows, macOS, Linux, Roku, VidaaOS i druge uređaje.</p>
+            <span class="premium-promo-button" data-g="premiumButton">Pogledaj plaćene playere →</span>
           </div>
           <div class="premium-logo-wall" aria-hidden="true">
             <img src="activation/assets/ibo/ibo-player.png" alt="">
@@ -186,7 +186,7 @@
     <section class="section"><div class="container contact-card reveal"><div><span class="contact-kicker">ORBIT SUPPORT</span><h2 data-g="supportTitle">Niste sigurni koji player izabrati?</h2><p data-g="supportText">Javite nam koji uređaj koristite. Pomoći ćemo vam od instalacije do prvog kanala.</p></div><div class="contact-actions"><a class="button button-whatsapp" href="https://wa.me/38669843976" target="_blank" rel="noopener"><span>WhatsApp</span><small>+386 69 843 976</small></a><a class="button button-telegram" href="https://t.me/dzekcano72" target="_blank" rel="noopener"><span>Telegram</span><small>@dzekcano72</small></a></div></div></section>
   </main>
 
-  <footer class="footer"><div class="container guide-footer"><a class="brand" href="../"><img src="../orbit-logo.png" alt=""><span><b>ORBIT</b><small>IPTV</small></span></a><div><a href="../" data-g="home">Početna</a><a href="#tivimate" data-g="tivimateGuide">TiviMate uputstvo</a><a href="activation/">Plaćeni playeri</a><a href="../converter.html">M3U Converter</a></div></div><div class="container footer-bottom"><span>© 2026 ORBIT IPTV</span><span>Installation Guide</span></div></footer>
+  <footer class="footer"><div class="container guide-footer"><a class="brand" href="../"><img src="../orbit-logo.png" alt=""><span><b>ORBIT</b><small>IPTV</small></span></a><div><a href="../" data-g="home">Početna</a><a href="#tivimate" data-g="tivimateGuide">TiviMate uputstvo</a><a href="activation/" data-g="paidPlayers">Plaćeni playeri</a><a href="../converter.html">M3U Converter</a></div></div><div class="container footer-bottom"><span>© 2026 ORBIT IPTV</span><span>Installation Guide</span></div></footer>
   <script src="guide.js"></script>
 </body>
 </html>
