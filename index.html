@@ -15,6 +15,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
   <link rel="stylesheet" href="guide.css">
+
+  <style>
+    .smarters-main-button{font-size:1.05rem!important;padding:16px 24px!important;box-shadow:0 10px 28px rgba(73,52,232,.28)!important}
+    .smarters-quick-link{border:2px solid rgba(73,52,232,.35)!important;background:rgba(73,52,232,.08)!important}
+    .smarters-quick-link span{background:#4934e8!important;color:#fff!important}.smarters-quick-link b{white-space:nowrap}
+    .smarters-promo-section{padding-top:20px!important;padding-bottom:28px!important}.smarters-promo-card{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:center;padding:28px;border:1px solid rgba(73,52,232,.22);border-radius:24px;background:linear-gradient(135deg,#fff 0%,#f5f2ff 100%);box-shadow:0 18px 44px rgba(30,35,60,.08);text-decoration:none;color:inherit;transition:.22s ease}.smarters-promo-card:hover{transform:translateY(-5px);box-shadow:0 24px 54px rgba(40,34,110,.14);border-color:rgba(73,52,232,.45)}.smarters-promo-art{width:100%;max-width:190px;margin:auto}.smarters-promo-art svg{display:block;width:100%;height:auto;border-radius:28px;box-shadow:0 16px 36px rgba(43,25,184,.2)}.smarters-promo-label{display:inline-flex;margin-bottom:9px;padding:6px 10px;border-radius:999px;background:#ece8ff;color:#4934e8;font-size:11px;font-weight:800;letter-spacing:.08em}.smarters-promo-copy h2{margin:0 0 10px;font-size:clamp(28px,4vw,42px);line-height:1.08}.smarters-promo-copy p{margin:0 0 18px;max-width:700px;color:#667085}.smarters-promo-button{display:inline-flex;padding:13px 18px;border-radius:10px;background:#4934e8;color:#fff;font-weight:800}.smarters-promo-card:focus-visible,.smarters-main-button:focus-visible,.smarters-quick-link:focus-visible{outline:3px solid #8d7df4;outline-offset:3px}@media(max-width:760px){.smarters-promo-card{grid-template-columns:1fr;text-align:center}.smarters-promo-art{max-width:150px}.smarters-main-button{width:100%;justify-content:center}}
+  </style>
 </head>
 <body class="guide-page">
   <a class="skip-link" href="#guideMain">Preskoči na uputstvo</a>
@@ -40,7 +47,7 @@
           <div class="eyebrow"><span></span><span>ORBIT IPTV</span></div>
           <h1><span data-g="installation">Installation</span><br><em data-g="guide">Guide.</em></h1>
           <p data-g="heroText">Kompletna, jednostavna uputstva za instalaciju i prijavu na svakom podržanom uređaju.</p>
-          <div class="hero-actions"><a class="button button-primary" href="#uredjaji" data-g="chooseDevice">Izaberi uređaj</a><a class="button button-secondary" href="#tivimate" data-g="tivimateGuide">TiviMate uputstvo</a><a class="button button-secondary" href="iptv-smarters-pro/">IPTV Smarters Pro</a></div>
+          <div class="hero-actions"><a class="button button-primary" href="#uredjaji" data-g="chooseDevice">Izaberi uređaj</a><a class="button button-secondary" href="#tivimate" data-g="tivimateGuide">TiviMate uputstvo</a><a class="button button-primary smarters-main-button" href="iptv-smarters-pro/">IPTV Smarters Pro →</a></div>
         </div>
         <div class="guide-overview reveal delay-1">
           <div class="overview-head"><span data-g="quickSetup">BRZO PODEŠAVANJE</span><b data-g="fourSteps">4 koraka</b></div>
@@ -56,7 +63,23 @@
 
     <section class="guide-quickbar">
       <div class="container quickbar-inner">
-        <a href="#orbit-tv"><span>TV</span>Orbit TV</a><a href="#orbit-tv-max"><span>MAX</span>Max</a><a href="#orbit-tv-plus"><span>+</span>Plus</a><a href="#orbit-tv-pro"><span>PRO</span>Pro</a><a href="#fire"><span>🔥</span>Fire TV</a><a href="#androidtv"><span>TV</span>Android TV</a><a href="#orbit-tv-vu-player"><span>VU</span>VU Player</a><a href="#rivo-orbit-tv-player"><span>RV</span>RIVO Player</a><a href="activation/"><span>€</span><b class="quickbar-label" data-g="paidPlayers">Plaćeni playeri</b></a>
+        <a href="#orbit-tv"><span>TV</span>Orbit TV</a><a href="#orbit-tv-max"><span>MAX</span>Max</a><a href="#orbit-tv-plus"><span>+</span>Plus</a><a href="#orbit-tv-pro"><span>PRO</span>Pro</a><a href="#fire"><span>🔥</span>Fire TV</a><a href="#androidtv"><span>TV</span>Android TV</a><a href="#orbit-tv-vu-player"><span>VU</span>VU Player</a><a href="#rivo-orbit-tv-player"><span>RV</span>RIVO Player</a><a class="smarters-quick-link" href="iptv-smarters-pro/"><span>SP</span><b>IPTV Smarters Pro</b></a><a href="activation/"><span>€</span><b class="quickbar-label" data-g="paidPlayers">Plaćeni playeri</b></a>
+      </div>
+    </section>
+
+    <section class="section smarters-promo-section">
+      <div class="container">
+        <a class="smarters-promo-card reveal" href="iptv-smarters-pro/" aria-label="Open IPTV Smarters Pro installation guide">
+          <div class="smarters-promo-art" aria-hidden="true">
+            <svg viewBox="0 0 512 512" role="img"><defs><linearGradient id="spg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4d34e8"/><stop offset="1" stop-color="#2915b8"/></linearGradient></defs><rect width="512" height="512" rx="96" fill="url(#spg)"/><g fill="none" stroke="#fff" stroke-linecap="round"><path d="M88 232c2-43 20-66 62-75 63-14 153-22 237-16 42 3 66 25 72 67" stroke-width="18"/><path d="M218 141l-55-83M270 137l28-82" stroke-width="16"/><circle cx="158" cy="52" r="13" fill="#fff" stroke="none"/><circle cx="302" cy="51" r="13" fill="#fff" stroke="none"/></g><text x="126" y="326" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="102" font-weight="500">IPTV</text><text x="124" y="381" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="800">SMARTERS</text><text x="342" y="412" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="800">PRO</text><path d="M390 337c35 50 20 104-47 116" fill="none" stroke="#fff" stroke-width="14" stroke-linecap="round"/></svg>
+          </div>
+          <div class="smarters-promo-copy">
+            <span class="smarters-promo-label">IPTV SMARTERS PRO</span>
+            <h2>IPTV Smarters Pro Installation</h2>
+            <p>Choose your device, open the matching installation guide and then sign in with your ORBIT details.</p>
+            <span class="smarters-promo-button">Open IPTV Smarters Pro →</span>
+          </div>
+        </a>
       </div>
     </section>
 
