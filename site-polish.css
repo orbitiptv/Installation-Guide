@@ -1,0 +1,7 @@
+.orbit-interior :is(.card,.app-card,.setup-card,.support-box,.cta-box,.benefit,.step,.logo-box,.smart-tv-note,.code-box){background:#111127!important;color:#f5f3ff!important;border-color:#ffffff20!important}
+.orbit-interior :is(.app-info p,.setup-card p,.lead,.note,.back-link){color:#c1bbd3!important}
+.orbit-interior :is(.top,.activation-header){background:#09091ff5!important;border-color:#ffffff20!important}
+.orbit-interior .activation-header{position:sticky;top:0;height:auto}
+.orbit-interior .header-inner{height:auto;min-height:76px;flex-wrap:wrap;gap:14px;padding-block:14px}
+.orbit-interior :is(.download-button,.go,.order){background:linear-gradient(110deg,#7650eb,#487bf5)!important;color:white!important}
+@media(max-width:650px){.orbit-interior .container{width:calc(100% - 32px);margin-inline:auto}.orbit-interior :is(.grid,.setup-grid,.split,.app-grid){grid-template-columns:minmax(0,1fr)!important}.orbit-interior :is(.nav,.menu,.tools,.header-actions){flex-wrap:wrap;gap:10px}.orbit-interior .hero{padding-inline:0}}
